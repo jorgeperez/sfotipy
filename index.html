@@ -1,10 +1,73 @@
-<!DOCTYPE html>
-<html lang="en">
-<head>
-	<meta charset="UTF-8">
-	<title>Document</title>
-</head>
-<body>
+<!DOCTYPE html> <!-- //Tipo de HTML5 -->
+<html lang="es">
+<head> <!-- //Datos ocultos para cargar archivos -->
+	<meta charset="UTF-8"> <!-- Contenido leído en UTF-8 ( acentos, caracteres especiales) -->
+	<title>Document</title> <!-- Título SEO -->
+	<meta name="description" content="Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod
+	tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam,
+	quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea">
+	<link type='text/css' rel='stylesheet' href="css/normalize.css"  />	
+	<link type='text/css' rel='stylesheet' href='css/style.css'  />
+	<style>
+		etiqueta{
+			atributo:valor;
+		}
+
+		#id{
+			atributo:valor;
+		}
+		.class{
+			atributo:valor;
+		}
+	</style>
+	<script src='https://code.jquery.com/jquery-3.4.1.js' type="text/javascript"></script>
+	<script src="js/functions.js" type="text/javascript"></script>
+	<script type="text/javascript">
+		console.log('This is javascript')
+	</script>
 	
+</head>
+
+<body> <!-- //Cuerpo del sitio --> 
+
+	<header><!-- Cabecera -->
+
+		<figure id="logo" style="border:1px dotted red;"> <!-- Incrustar estilos dentro de la etiqueta -->
+			<img src="http://versatico.com/web/wp-content/uploads/2018/04/Logo-Versatico-Dise%C3%B1o-Web-Bucaramanga.png" alt="">
+		</figure>	
+		<h1>Sfotipy</h1>	
+		<nav>
+					<ul>
+						<li><a href="#">INICIO</a></li>
+						<li><a href="#">TOP SONGS</a></li>
+						<li><a href="#">TOP SINGERS</a></li>
+						<li><a href="#">BLOG</a></li>
+						<li><a href="#">CONTACT</a></li>
+					</ul>
+				</nav>		
+	</header> 
+
+	<section> <!-- Contenido -->
+
+		<article class="item">
+			<figure class="figure_item">
+				<img src="http://versatico.com/web/wp-content/uploads/2018/04/Logo-Versatico-Dise%C3%B1o-Web-Bucaramanga.png" alt="">
+			</figure>
+			<h2 class="title_item">Título
+			</h2>
+			<div class="data_item">
+				<span>Texto Descriptivo</span>
+			</div>
+		</article>
+
+	</section>
+
+	<footer><!-- Pie de página -->
+
+		<strong>Sfotipy</strong>
+		<p>Todos los derechos reservados</p>
+
+	</footer> 
+
 </body>
 </html>
