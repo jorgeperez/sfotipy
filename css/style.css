@@ -1,3 +1,28 @@
-h1 {
-  color: #f00;
+body {
+  font-size: 16px;
+}
+figure {
+  margin: 0;
+}
+.container {
+  padding: 1.4rem;
+  font-size: 0;
+  text-align: center;
+}
+.name {
+  color: #333;
+}
+.author {
+  color: #818181;
+}
+.song {
+  display: inline-block;
+  font-size: 1rem;
+  margin-bottom: 1em;
+  margin-right: 1em;
+  overflow: hidden;
+  width: 8em;
+}
+.song:nth-child(even) {
+  margin-right: 0;
 }
